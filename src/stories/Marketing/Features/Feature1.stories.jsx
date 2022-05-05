@@ -8,8 +8,8 @@ export const Feature1 = () => {
     <>
       <SectionWrapper className="dark dark:bg-black dark:text-white">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
-          <div className="lg:px-10 py-43">
-            <h1 className="text-2xl lg:text-5xl font-semibold drop-shadow-lg">
+          <div className="py-43 lg:px-10">
+            <h1 className="text-2xl font-semibold drop-shadow-lg lg:text-5xl">
               A new and better way
               <br className="hidden lg:inline" /> to acquire engage and
               <br className="hidden lg:inline" /> retain customers
@@ -17,7 +17,8 @@ export const Feature1 = () => {
             <div className="py-3">
               <SectionSubHeading>
                 Create screens directly in Method or add your images
-                <br className="hidden lg:inline" /> from sketch or Figma. You caneven sync designs
+                <br className="hidden lg:inline" /> from sketch or Figma. You
+                caneven sync designs
                 <br className="hidden lg:inline" /> from your cloud storage!
               </SectionSubHeading>
             </div>

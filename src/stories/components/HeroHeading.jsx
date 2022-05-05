@@ -1,3 +1,7 @@
 export const HeroHeading = ({ children }) => {
-  return <h1 className={"text-4xl md:text-5xl 2xl:text-6xl"}>{children}</h1>;
+  return (
+    <h1 className={"text-5xl font-semibold md:text-6xl xl:text-7xl"}>
+      {children}
+    </h1>
+  );
 };

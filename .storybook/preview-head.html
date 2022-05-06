@@ -47,6 +47,19 @@
         }
     }
 </script>
+<style type="text/tailwindcss">
+    @layer utilities {
+        html{
+            @apply scroll-smooth;
+        }
+        body {
+            @apply font-body antialiased text-[#3E4462] bg-[#fff] ;
+        }
+        body.dark {
+            @apply text-[#fff]/50 bg-[#18214D];
+        }
+    }
+</style>
 <style>
     html,body{
         font-family: 'Inter var', sans-serif !important;

@@ -1,4 +1,3 @@
-import React from "react";
 import { SectionWrapper } from "../../components/SectionWrapper";
 import { SectionSubHeading } from "../../components/SectionSubHeading";
 import { AiOutlineArrowRight, AiFillPlayCircle } from "react-icons/ai";
@@ -33,9 +32,9 @@ export const Feature1 = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center py-5 lg:py-7 ">
-            <div className="h-72 w-96 rounded bg-gray-200">
-              <div className="py-32 px-44  text-blue-500">
+          <div className="my-auto flex justify-center lg:py-7 ">
+            <div className=" w-96 rounded bg-gray-200">
+              <div className="text-primary py-32  px-44">
                 <AiFillPlayCircle />
               </div>
             </div>
@@ -44,7 +43,7 @@ export const Feature1 = () => {
         <div className="py-4">
           <hr />
         </div>
-        <div className="grid grid-cols-1 text-left lg:grid-cols-3 lg:text-left">
+        <div className="grid grid-cols-1 text-left lg:grid-cols-3">
           <div className="py-3 lg:mx-4">
             <h1 className="text-xl font-semibold lg:text-2xl">
               Email Marketing

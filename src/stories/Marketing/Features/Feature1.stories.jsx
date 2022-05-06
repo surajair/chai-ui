@@ -5,7 +5,7 @@ import { AiOutlineArrowRight, AiFillPlayCircle } from "react-icons/ai";
 export const Feature1 = () => {
   return (
     <>
-      <SectionWrapper className="dark dark:bg-black dark:text-white">
+      <SectionWrapper>
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
           <div className="py-43 lg:px-10">
             <h1 className="text-2xl font-semibold drop-shadow-lg lg:text-5xl">
@@ -32,7 +32,7 @@ export const Feature1 = () => {
               </div>
             </div>
           </div>
-          <div className="my-auto flex justify-center lg:py-7 ">
+          <div className="my-auto flex justify-center ">
             <div className=" w-96 rounded bg-gray-200">
               <div className="text-primary py-32  px-44">
                 <AiFillPlayCircle />

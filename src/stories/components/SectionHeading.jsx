@@ -2,7 +2,7 @@ import React from "react";
 
 export const SectionHeading = ({ children }) => {
   return (
-    <h2 className={"text-3xl font-bold leading-7 md:text-4xl 2xl:text-5xl"}>
+    <h2 className={"text-3xl font-bold leading-7 md:text-5xl 2xl:text-6xl"}>
       {children}
     </h2>
   );

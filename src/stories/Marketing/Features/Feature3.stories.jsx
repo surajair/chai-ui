@@ -7,34 +7,34 @@ export const Feature3 = () => {
     <>
       <SectionWrapper>
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="flex flex-row lg:-ml-2 ">
-            <div className="hidden lg:inline">
+          <div className="flex flex-row ">
+            <div className="hidden lg:-ml-2 lg:inline">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651759497/Widget_02_odl0vv.png" />
             </div>
             <div className="hidden px-5 lg:inline">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651759498/Widget_01_ispq1y.png" />
-            </div> 
-            <div className="lg:hidden px-3">
+            </div>
+            <div className="px-3 lg:hidden">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651821057/Widget_04_xijeu8.png" />
             </div>
-            <div className="lg:hidden ml-5 -mr-10">
+            <div className="ml-5 -mr-10 lg:hidden">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651822934/Widget_04_aayeke.png" />
             </div>
           </div>
-          <div className="px-3 py-3">
+          <div className="my-auto px-3 py-3">
             <div className=" lg:py-2">
-              <SectionHeading>
+              <h1 className="text-3xl font-bold leading-7 md:text-5xl 2xl:text-6xl">
                 The best awesome <br className="hidden lg:inline" />
                 email marketing tool
-              </SectionHeading>
+              </h1>
             </div>
             <div className="lg:py-2">
-              <SectionSubHeading>
+              <h3 className="py-6 leading-6 lg:text-lg">
                 Create screens directly in Method or add your images
                 <br className="hidden lg:inline" /> from Sketch or Figma. You
                 can even sync designs
                 <br className="hidden lg:inline" /> from your cloud storage!
-              </SectionSubHeading>
+              </h3>
             </div>
             <div className="lg:py-2">
               <div className="bg-primary flex h-12 w-40 rounded-lg py-3 ">

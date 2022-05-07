@@ -1,5 +1,3 @@
-import { SectionHeading } from "../../components/SectionHeading";
-import { SectionSubHeading } from "../../components/SectionSubHeading";
 import { HiLocationMarker } from "react-icons/hi";
 import { IoMdChatbubbles } from "react-icons/io";
 import { MdPieChart } from "react-icons/md";
@@ -9,24 +7,24 @@ export const Feature2 = () => {
     <>
       <SectionWrapper>
         <div className="flex grid-cols-1 flex-col-reverse lg:grid lg:grid-cols-2">
-          <div className="pt-6 lg:px-10 lg:pt-0">
-            <div className="lg:py-1">
-              <SectionHeading>
+          <div className="my-auto pt-6 lg:px-10 lg:pt-0">
+            <div>
+              <h1 className="text-3xl font-bold leading-7 md:text-5xl 2xl:text-6xl">
                 Method and the
                 <br className="hidden lg:inline" />
                 tools you love,
                 <br className="hidden lg:inline" />
                 united
-              </SectionHeading>
+              </h1>
             </div>
             <div className="lg:py-1">
-              <SectionSubHeading>
+              <h3 className="py-6 leading-6 lg:text-lg">
                 Create screens directly in Method or add your images
                 <br className="hidden lg:inline" /> from Sketch or Figma. You
                 can even sync designs
                 <br className="hidden lg:inline" />
                 from your cloud storage!
-              </SectionSubHeading>
+              </h3>
             </div>
             <div className="lg:py-1 ">
               <div className="flex py-3">
@@ -61,7 +59,7 @@ export const Feature2 = () => {
               </div>
             </div>
           </div>
-          <div className="-mr-5 -mt-5 lg:mr-0 lg:mt-0 ">
+          <div className="-mr-4 lg:-mx-4 lg:mr-0 lg:mt-0 ">
             <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651754274/Safari_hxxynx.png" />
           </div>
         </div>

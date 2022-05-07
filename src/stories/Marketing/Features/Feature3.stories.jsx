@@ -1,6 +1,4 @@
 import { AiOutlineFire } from "react-icons/ai";
-import { SectionHeading } from "../../components/SectionHeading";
-import { SectionSubHeading } from "../../components/SectionSubHeading";
 import { SectionWrapper } from "../../components/SectionWrapper";
 export const Feature3 = () => {
   return (

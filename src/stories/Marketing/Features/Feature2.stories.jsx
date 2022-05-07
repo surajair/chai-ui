@@ -59,7 +59,7 @@ export const Feature2 = () => {
               </div>
             </div>
           </div>
-          <div className="-mr-4 lg:-mx-4 lg:mr-0 lg:mt-0 ">
+          <div className="-mr-4 lg:-mx-5 lg:mr-0 lg:mt-0 ">
             <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651754274/Safari_hxxynx.png" />
           </div>
         </div>

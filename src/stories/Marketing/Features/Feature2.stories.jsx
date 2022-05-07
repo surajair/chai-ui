@@ -1,52 +1,76 @@
-import React from "react";
 import { SectionHeading } from "../../components/SectionHeading";
 import { SectionSubHeading } from "../../components/SectionSubHeading";
 import { HiLocationMarker } from "react-icons/hi";
 import { IoMdChatbubbles } from "react-icons/io";
 import { MdPieChart } from "react-icons/md";
-export const Feature2 = () =>{
-    return <>
-        <div className="scroll-py-20 lg:py-14 pl-14 text-black">
-            <div className="lg:grid grid-cols-1 lg:grid-cols-2 flex flex-col-reverse">
-                <div className="pt-2 pr-10">
-                    <SectionHeading>Method and the tools you love, united</SectionHeading>
-                    <SectionSubHeading >Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!</SectionSubHeading>
-                    <div className="">
-                        <div className="flex py-3">
-                            <div className="bg-gray-300 rounded-full h-10 w-10 py-3 px-3">
-                                <HiLocationMarker/>
-                            </div>
-                            <div className="py-1 px-3">
-                                <h1 className="text-lg lg:text-xl font-semibold">Property Management</h1>
-                            </div>
-                        </div>
-                        <div className="flex py-3">
-                            <div className="bg-gray-300 rounded-full h-10 w-10 py-3 px-3">
-                            <IoMdChatbubbles/>
-                            </div>
-                            <div className="py-1 px-3">
-                                <h1 className="text-lg lg:text-xl font-semibold">Focus on Communication</h1>
-                            </div>
-                        </div>
-                        <div className="flex py-3">
-                            <div className="bg-gray-300 rounded-full h-10 w-10 py-3 px-3">
-                                <MdPieChart/>
-                            </div>
-                            <div className="py-1 px-3">
-                                <h1 className="text-lg lg:text-xl font-semibold">User Administration</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="lg:py-10 ">
-                    <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651754274/Safari_hxxynx.png"/>
-                </div>
+import { SectionWrapper } from "../../components/SectionWrapper";
+export const Feature2 = () => {
+  return (
+    <>
+      <SectionWrapper>
+        <div className="flex grid-cols-1 flex-col-reverse lg:grid lg:grid-cols-2">
+          <div className="pt-6 lg:px-10 lg:pt-0">
+            <div className="lg:py-1">
+              <SectionHeading>
+                Method and the
+                <br className="hidden lg:inline" />
+                tools you love,
+                <br className="hidden lg:inline" />
+                united
+              </SectionHeading>
             </div>
+            <div className="lg:py-1">
+              <SectionSubHeading>
+                Create screens directly in Method or add your images
+                <br className="hidden lg:inline" /> from Sketch or Figma. You
+                can even sync designs
+                <br className="hidden lg:inline" />
+                from your cloud storage!
+              </SectionSubHeading>
+            </div>
+            <div className="lg:py-1 ">
+              <div className="flex py-3">
+                <div className="h-10 w-10 rounded-full bg-gray-300 py-3 px-3">
+                  <HiLocationMarker />
+                </div>
+                <div className="py-1 px-3">
+                  <h1 className="text-lg font-semibold lg:text-xl">
+                    Property Management
+                  </h1>
+                </div>
+              </div>
+              <div className="flex py-3">
+                <div className="h-10 w-10 rounded-full bg-gray-300 py-3 px-3">
+                  <IoMdChatbubbles />
+                </div>
+                <div className="py-1 px-3">
+                  <h1 className="text-lg font-semibold lg:text-xl">
+                    Focus on Communication
+                  </h1>
+                </div>
+              </div>
+              <div className="flex py-3">
+                <div className="h-10 w-10 rounded-full bg-gray-300 py-3 px-3">
+                  <MdPieChart />
+                </div>
+                <div className="py-1 px-3">
+                  <h1 className="text-lg font-semibold lg:text-xl">
+                    User Administration
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-mr-5 -mt-5 lg:mr-0 lg:mt-0 ">
+            <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651754274/Safari_hxxynx.png" />
+          </div>
         </div>
-    </>;
+      </SectionWrapper>
+    </>
+  );
 };
 
 export default {
-    title: "Marketing/Features/Feature 2",
-    component: Feature2,
+  title: "Marketing/Features/Feature 2",
+  component: Feature2,
 };

@@ -1,73 +1,78 @@
-import React from "react";
-import { SectionHeading } from "../../components/SectionHeading";
+import { SectionWrapper } from "../../components/SectionWrapper";
 import { SectionSubHeading } from "../../components/SectionSubHeading";
 import { AiOutlineArrowRight, AiFillPlayCircle } from "react-icons/ai";
 
 export const Feature1 = () => {
   return (
     <>
-      <div className="p-7 text-black  lg:p-14">
+      <SectionWrapper>
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
-          <div>
-            <SectionHeading>
+          <div className="py-43 lg:px-10">
+            <h1 className="text-2xl font-semibold drop-shadow-lg lg:text-5xl">
               A new and better way
-              <br /> to acquire engage and
-              <br /> retain customers
-            </SectionHeading>
-            <SectionSubHeading>
-              Create screens directly in Method or add your images from sketch
-              or Figma. You can even sync designs from your cloud storage!
-            </SectionSubHeading>
-            <div className="bg-primary flex h-12 w-40 rounded-lg py-3 pl-3">
-              <a href="" className="font-xl text-white">
-                Learn More{" "}
-              </a>
-              <a className="my-auto mx-auto text-white">
-                <AiOutlineArrowRight />
-              </a>
+              <br className="hidden lg:inline" /> to acquire engage and
+              <br className="hidden lg:inline" /> retain customers
+            </h1>
+            <div className="py-3">
+              <SectionSubHeading>
+                Create screens directly in Method or add your images
+                <br className="hidden lg:inline" /> from sketch or Figma. You
+                caneven sync designs
+                <br className="hidden lg:inline" /> from your cloud storage!
+              </SectionSubHeading>
+            </div>
+            <div className="py-3">
+              <div className="bg-primary flex h-12 w-40 rounded-lg py-3 pl-3">
+                <a href="" className="font-xl text-white">
+                  Learn More
+                </a>
+                <a className="my-auto mx-auto text-white">
+                  <AiOutlineArrowRight />
+                </a>
+              </div>
             </div>
           </div>
-          <div className="flex justify-center pt-5 lg:pt-24 ">
-            <div className="h-64 w-96 rounded bg-gray-200">
-              <div className="py-28 px-44  text-blue-500">
+          <div className="my-auto flex justify-center ">
+            <div className=" w-96 rounded bg-gray-200">
+              <div className="text-primary py-32  px-44">
                 <AiFillPlayCircle />
               </div>
             </div>
           </div>
         </div>
-        <div className="py-5">
+        <div className="py-4">
           <hr />
         </div>
-        <div className="grid grid-cols-1 text-left lg:grid-cols-3 lg:text-left">
-          <div className="my-4 lg:mx-4">
+        <div className="grid grid-cols-1 text-left lg:grid-cols-3">
+          <div className="py-3 lg:mx-4">
             <h1 className="text-xl font-semibold lg:text-2xl">
               Email Marketing
             </h1>
-            <p className="text-lg">
+            <p className="py-3 text-lg">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.{" "}
             </p>
           </div>
-          <div className="my-4 lg:mx-4">
+          <div className="py-3 lg:mx-4">
             <h1 className="text-xl font-semibold lg:text-2xl">
               Marketing Automation
             </h1>
-            <p className="text-lg">
+            <p className="py-3 text-lg">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.{" "}
             </p>
           </div>
-          <div className="my-4 lg:mx-4">
+          <div className="py-3 lg:mx-4">
             <h1 className="text-xl font-semibold lg:text-2xl">
               Engage Customers
             </h1>
-            <p className="text-lg">
+            <p className="py-3 text-lg">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.{" "}
             </p>
           </div>
         </div>
-      </div>
+      </SectionWrapper>
     </>
   );
 };

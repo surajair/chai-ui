@@ -5,17 +5,17 @@ export const Feature3 = () => {
     <>
       <SectionWrapper>
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="flex flex-row ">
-            <div className="hidden lg:-ml-2 lg:inline">
+          <div className="flex flex-row justify-end">
+            <div className="hidden px-10 lg:-ml-12 lg:inline">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651759497/Widget_02_odl0vv.png" />
             </div>
             <div className="hidden px-5 lg:inline">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651759498/Widget_01_ispq1y.png" />
             </div>
-            <div className="px-3 lg:hidden">
+            <div className="px-10 lg:hidden">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651821057/Widget_04_xijeu8.png" />
             </div>
-            <div className="ml-5 -mr-10 lg:hidden">
+            <div className="ml-5 -mr-7 lg:hidden">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1651822934/Widget_04_aayeke.png" />
             </div>
           </div>

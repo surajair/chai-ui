@@ -14,12 +14,12 @@ export const Feature1 = () => {
               <br className="hidden lg:inline" /> retain customers
             </h1>
             <div className="py-3">
-              <SectionSubHeading>
+              <h3 className="py-6 leading-6 lg:text-lg">
                 Create screens directly in Method or add your images
                 <br className="hidden lg:inline" /> from sketch or Figma. You
                 caneven sync designs
                 <br className="hidden lg:inline" /> from your cloud storage!
-              </SectionSubHeading>
+              </h3>
             </div>
             <div className="py-3">
               <div className="bg-primary flex h-12 w-40 rounded-lg py-3 pl-3">

@@ -12,7 +12,7 @@ export const Feature5 = () => {
             </h1>
           </div>
           <div className=" py-3">
-            <div className="-mx-4 hidden md:flex md:justify-around">
+            <div className="-mx-auto hidden md:flex  md:justify-between ">
               <img src="https://res.cloudinary.com/dw8gdozpq/image/upload/v1652082801/Widgets_cyazx5.png" />
             </div>
             <div className="flex justify-center md:hidden ">

@@ -1,7 +1,5 @@
 import { SectionWrapper } from "../../components/SectionWrapper";
-import { SectionSubHeading } from "../../components/SectionSubHeading";
 import { AiOutlineArrowRight, AiFillPlayCircle } from "react-icons/ai";
-
 export const Feature1 = () => {
   return (
     <>

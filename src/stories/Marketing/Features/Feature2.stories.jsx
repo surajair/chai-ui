@@ -5,7 +5,7 @@ export const Feature2 = () => {
   return (
     <>
       <div className="dark -mr-4 py-14 px-4 dark:bg-black dark:text-white">
-        <div className="flex grid-cols-1 flex-col-reverse lg:grid lg:grid-cols-2">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
           <div className="my-auto pt-6 lg:px-10 lg:pt-0">
             <div>
               <h1 className="text-3xl font-bold leading-7 md:text-5xl 2xl:text-6xl">

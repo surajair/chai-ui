@@ -16,7 +16,7 @@ export const Feature12 = () => {
                 </h1>
               </div>
               <div className="py-3">
-                <h3>
+                <h3 className="py-6 leading-6 lg:text-lg">
                   You can even sync designs from{" "}
                   <br className="hidden md:inline" /> your cloud storage!
                 </h3>

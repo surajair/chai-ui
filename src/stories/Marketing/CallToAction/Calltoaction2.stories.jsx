@@ -27,7 +27,7 @@ export const Calltoaction2 = () => {
                 <div className="px-3 py-2">
                   <h1 className="font-semibold">Read More</h1>
                 </div>
-                <div className="px-2 bg-gray-200 rounded-full h-10 w-10 py-2">
+                <div className="h-10 w-10 rounded-full bg-gray-200 px-2 py-2">
                   <BsArrowRight className="h-6 w-6" />
                 </div>
               </div>

@@ -4,7 +4,7 @@ import { MdPieChart } from "react-icons/md";
 export const Feature2 = () => {
   return (
     <>
-      <div className="dark -mr-4 py-14 px-4 dark:bg-black dark:text-white">
+      <div className="dark -mr-4 -mt-4 lg:py-14 px-4 dark:bg-black dark:text-white">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
           <div className="my-auto pt-6 lg:px-10 lg:pt-0">
             <div>

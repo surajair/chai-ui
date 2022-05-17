@@ -1,10 +1,10 @@
-import { BsPlayFill ,BsArrowRight } from "react-icons/bs";
+import { BsPlayFill, BsArrowRight } from "react-icons/bs";
 import { MdFileDownload } from "react-icons/md";
 import { Button } from "react-bootstrap";
 export const Calltoaction3 = () => {
   return (
     <>
-      <div className="dark -mr-4 lg:py-14 -mt-4 px-4 dark:bg-black dark:text-white">
+      <div className="dark -mr-4 -mt-4 px-4 dark:bg-black dark:text-white lg:py-14">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
           <div className="my-auto pt-6 md:px-10 lg:pt-0">
             <div className="py-3">
@@ -55,7 +55,7 @@ export const Calltoaction3 = () => {
               <div className="lg:hidden">
                 <Button className="bg-transparent px-3">
                   <div className="flex">
-                  <div className="h-10 w-10 rounded-full bg-gray-200 px-2 py-2">
+                    <div className="h-10 w-10 rounded-full bg-gray-200 px-2 py-2">
                       <BsArrowRight className="h-6 w-6" />
                     </div>
                     <div className="px-3 py-2">

@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 export const Calltoaction13 = () => {
   return (
     <>
@@ -27,9 +26,9 @@ export const Calltoaction13 = () => {
                   />
                 </div>
                 <div className="px-14 py-3   md:px-3">
-                  <Button className="bg-primary h-12 w-72 rounded-lg text-white lg:w-56">
+                  <button className="bg-primary h-12 w-72 rounded-lg text-white lg:w-56">
                     Subscribe
-                  </Button>
+                  </button>
                 </div>
               </div>
             </form>

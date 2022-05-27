@@ -1,7 +1,6 @@
 import { SectionWrapper } from "../../components/SectionWrapper";
 import { IoMdLock } from "react-icons/io";
 import { RiFlashlightFill } from "react-icons/ri";
-import { Button } from "react-bootstrap";
 import { MdDownload, MdCloudUpload } from "react-icons/md";
 export const Calltoaction4 = () => {
   return (
@@ -26,7 +25,7 @@ export const Calltoaction4 = () => {
               </h3>
             </div>
             <div className="flex justify-center py-2">
-              <Button className="bg-primary rounded-lg px-3">
+              <button className="bg-primary rounded-lg px-3">
                 <div className="flex">
                   <div className="my-auto h-7 w-7 rounded-full bg-white px-1 py-1">
                     <RiFlashlightFill className="text-primary h-5 w-5" />
@@ -35,7 +34,7 @@ export const Calltoaction4 = () => {
                     <h1 className="font-semibold text-white">Get Access</h1>
                   </div>
                 </div>
-              </Button>
+              </button>
             </div>
           </div>
           <div className="hidden lg:inline lg:flex lg:justify-center">
@@ -61,7 +60,7 @@ export const Calltoaction4 = () => {
               </h3>
             </div>
             <div className="flex justify-center py-2">
-              <Button className="rounded-lg border-2 px-3">
+              <button className="rounded-lg border-2 px-3">
                 <div className="flex">
                   <div className="my-auto h-7 w-7 rounded-full bg-white px-1 py-1">
                     <MdDownload className=" h-5 w-5" />
@@ -70,7 +69,7 @@ export const Calltoaction4 = () => {
                     <h1 className="font-semibold">Download Free</h1>
                   </div>
                 </div>
-              </Button>
+              </button>
             </div>
           </div>
         </div>

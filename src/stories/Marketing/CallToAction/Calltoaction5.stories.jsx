@@ -1,5 +1,4 @@
 import { SectionWrapper } from "../../components/SectionWrapper";
-import { Button } from "react-bootstrap";
 import { BsApple } from "react-icons/bs";
 import { FaGooglePlay } from "react-icons/fa";
 export const Calltoaction5 = () => {
@@ -26,7 +25,7 @@ export const Calltoaction5 = () => {
           </div>
           <div className="flex justify-center py-5">
             <div>
-              <Button className="bg-primary rounded-lg px-3 py-1">
+              <button className="bg-primary rounded-lg px-3 py-1">
                 <div className="flex">
                   <div className="my-auto px-1">
                     <BsApple className="h-6 w-6 text-white" />
@@ -40,10 +39,10 @@ export const Calltoaction5 = () => {
                     </div>
                   </div>
                 </div>
-              </Button>
+              </button>
             </div>
             <div className="px-3">
-              <Button className="bg-primary rounded-lg px-3 py-1">
+              <button className="bg-primary rounded-lg px-3 py-1">
                 <div className="flex">
                   <div className="my-auto px-1">
                     <FaGooglePlay className="h-6 w-6 text-white" />
@@ -57,7 +56,7 @@ export const Calltoaction5 = () => {
                     </div>
                   </div>
                 </div>
-              </Button>
+              </button>
             </div>
           </div>
         </div>

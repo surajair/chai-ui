@@ -1,6 +1,5 @@
 import { BsPlayFill, BsArrowRight } from "react-icons/bs";
 import { MdFileDownload } from "react-icons/md";
-import { Button } from "react-bootstrap";
 export const Calltoaction9 = () => {
   return (
     <>
@@ -30,7 +29,7 @@ export const Calltoaction9 = () => {
               </div>
               <div className="justify-left flex py-3">
                 <div>
-                  <Button className="bg-transparent">
+                  <button className="bg-transparent">
                     <div className="flex">
                       <div className="bg-primary h-19 w-11 rounded-full px-3 py-2">
                         <BsPlayFill className="h-6 w-6 text-white" />
@@ -39,10 +38,10 @@ export const Calltoaction9 = () => {
                         <h1 className="font-semibold">Play Video</h1>
                       </div>
                     </div>
-                  </Button>
+                  </button>
                 </div>
                 <div className="hidden lg:inline">
-                  <Button className="bg-transparent px-3">
+                  <button className="bg-transparent px-3">
                     <div className="flex">
                       <div className="h-10 w-10 rounded-full bg-gray-200 px-2 py-2">
                         <MdFileDownload className="h-6 w-6" />
@@ -51,10 +50,10 @@ export const Calltoaction9 = () => {
                         <h1 className="font-semibold">Download</h1>
                       </div>
                     </div>
-                  </Button>
+                  </button>
                 </div>
                 <div className="lg:hidden">
-                  <Button className="bg-transparent px-3">
+                  <button className="bg-transparent px-3">
                     <div className="flex">
                       <div className="h-9 w-9 rounded-full bg-gray-200 px-1 py-1">
                         <BsArrowRight className="h-6 w-6" />
@@ -63,7 +62,7 @@ export const Calltoaction9 = () => {
                         <h1 className="font-semibold">Read More</h1>
                       </div>
                     </div>
-                  </Button>
+                  </button>
                 </div>
               </div>
             </div>

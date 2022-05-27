@@ -1,5 +1,4 @@
 import { SectionWrapper } from "../../components/SectionWrapper";
-import { Button } from "react-bootstrap";
 export const Calltoaction7 = () => {
   return (
     <>
@@ -21,9 +20,9 @@ export const Calltoaction7 = () => {
                   />
                 </div>
                 <div className="px-2 py-2">
-                  <Button className="bg-primary h-12 w-72 rounded-lg text-white">
+                  <button className="bg-primary h-12 w-72 rounded-lg text-white">
                     Sign Up
-                  </Button>
+                  </button>
                 </div>
               </div>
             </form>

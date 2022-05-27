@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 import { BsApple } from "react-icons/bs";
 import { FaGooglePlay } from "react-icons/fa";
 export const Calltoaction1 = () => {
@@ -39,7 +38,7 @@ export const Calltoaction1 = () => {
             </div>
             <div className="-mx-3 my-8 flex justify-center lg:mx-0 lg:justify-start">
               <div>
-                <Button className="bg-primary rounded-lg px-3 py-1">
+                <button className="bg-primary rounded-lg px-3 py-1">
                   <div className="flex">
                     <div className="px-1 py-2">
                       <BsApple className="h-6 w-6 text-white" />
@@ -53,10 +52,10 @@ export const Calltoaction1 = () => {
                       </div>
                     </div>
                   </div>
-                </Button>
+                </button>
               </div>
               <div className="px-3">
-                <Button className="bg-primary rounded-lg px-3 py-1">
+                <button className="bg-primary rounded-lg px-3 py-1">
                   <div className="flex">
                     <div className="px-1 py-2">
                       <FaGooglePlay className="h-6 w-6 text-white" />
@@ -70,7 +69,7 @@ export const Calltoaction1 = () => {
                       </div>
                     </div>
                   </div>
-                </Button>
+                </button>
               </div>
             </div>
           </div>

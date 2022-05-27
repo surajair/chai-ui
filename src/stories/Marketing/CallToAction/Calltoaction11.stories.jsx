@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 export const Calltoaction11 = () => {
   return (
     <>
@@ -13,11 +12,11 @@ export const Calltoaction11 = () => {
             </h1>
           </div>
           <div className="flex justify-center py-3">
-            <Button className="bg-primary h-12 w-44 rounded-lg">
+            <button className="bg-primary h-12 w-44 rounded-lg">
               <div className="px-3 py-2 text-center text-white">
                 <h1 className="font-semibold">Get Started</h1>
               </div>
-            </Button>
+            </button>
           </div>
 
           <div className="hidden items-end justify-center pt-3 md:inline md:flex">

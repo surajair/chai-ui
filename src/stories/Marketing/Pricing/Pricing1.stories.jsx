@@ -1,5 +1,4 @@
 import { SectionWrapper } from "../../components/SectionWrapper";
-import { Button } from "react-bootstrap";
 import { RiFlashlightFill } from "react-icons/ri";
 export const Pricing1 = () => {
   return (
@@ -38,7 +37,7 @@ export const Pricing1 = () => {
               <h1 className="text-5xl font-bold lg:text-6xl">$59</h1>
             </div>
             <div className="py-2 md:text-right">
-              <Button className="rounded-lg border-2 px-3">
+              <button className="rounded-lg border-2 px-3">
                 <div className="flex">
                   <div className="my-auto h-6 w-6 rounded-full bg-black px-1 py-1">
                     <RiFlashlightFill className="h-4 w-4 text-white" />
@@ -47,7 +46,7 @@ export const Pricing1 = () => {
                     <h1 className="font-semibold text-black">Get Now</h1>
                   </div>
                 </div>
-              </Button>
+              </button>
             </div>
           </div>
           <div className="py-3">
@@ -71,7 +70,7 @@ export const Pricing1 = () => {
               <h1 className="text-5xl font-bold lg:text-6xl">$79</h1>
             </div>
             <div className="py-2 md:text-right">
-              <Button className="bg-primary rounded-lg px-3">
+              <button className="bg-primary rounded-lg px-3">
                 <div className="flex">
                   <div className="my-auto h-6 w-6 rounded-full bg-white px-1 py-1">
                     <RiFlashlightFill className="text-primary h-4 w-4" />
@@ -80,7 +79,7 @@ export const Pricing1 = () => {
                     <h1 className="font-semibold text-white">Get Now</h1>
                   </div>
                 </div>
-              </Button>
+              </button>
             </div>
           </div>
           <div className="py-3">
@@ -104,7 +103,7 @@ export const Pricing1 = () => {
               <h1 className="text-5xl font-bold lg:text-6xl">$99</h1>
             </div>
             <div className="py-2 md:text-right">
-              <Button className="rounded-lg border-2 px-3">
+              <button className="rounded-lg border-2 px-3">
                 <div className="flex">
                   <div className="my-auto h-6 w-6 rounded-full bg-black px-1 py-1">
                     <RiFlashlightFill className="h-4 w-4 text-white" />
@@ -113,7 +112,7 @@ export const Pricing1 = () => {
                     <h1 className="font-semibold text-black">Get Now</h1>
                   </div>
                 </div>
-              </Button>
+              </button>
             </div>
           </div>
         </div>

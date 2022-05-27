@@ -1,5 +1,4 @@
 import { SectionWrapper } from "../../components/SectionWrapper";
-import { Button } from "react-bootstrap";
 import { BsArrowRight } from "react-icons/bs";
 export const Calltoaction2 = () => {
   return (
@@ -22,7 +21,7 @@ export const Calltoaction2 = () => {
             </h3>
           </div>
           <div className="flex justify-center py-3">
-            <Button className="bg-transparent px-3">
+            <button className="bg-transparent px-3">
               <div className="flex">
                 <div className="px-3 py-2">
                   <h1 className="font-semibold">Read More</h1>
@@ -31,7 +30,7 @@ export const Calltoaction2 = () => {
                   <BsArrowRight className="h-6 w-6" />
                 </div>
               </div>
-            </Button>
+            </button>
           </div>
         </div>
       </SectionWrapper>

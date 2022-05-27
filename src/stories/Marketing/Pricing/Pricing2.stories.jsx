@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 import { GoPrimitiveDot } from "react-icons/go";
 import { SectionWrapper } from "../../components/SectionWrapper";
 export const Pricing2 = () => {
@@ -43,14 +42,14 @@ export const Pricing2 = () => {
                 </div>
               </div>
               <div className="flex justify-center px-3 py-3">
-                <Button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
+                <button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
                   <p className="text-primary">Select Plan</p>
-                </Button>
+                </button>
               </div>
               <div className="flex justify-center px-3 py-3 hover:rounded-lg hover:border-2">
-                <Button className="h-10 w-64 lg:w-80">
+                <button className="h-10 w-64 lg:w-80">
                   <p className="">Learn More</p>
-                </Button>
+                </button>
               </div>
             </div>
             <div className="border-primary  mx-3 rounded-lg border-2 py-3">
@@ -76,14 +75,14 @@ export const Pricing2 = () => {
                 </div>
               </div>
               <div className="flex justify-center px-3 py-3">
-                <Button className="bg-primary h-10 w-64 rounded-lg lg:w-80">
+                <button className="bg-primary h-10 w-64 rounded-lg lg:w-80">
                   <p className="text-white">Select Plan</p>
-                </Button>
+                </button>
               </div>
               <div className="flex justify-center px-3 py-3">
-                <Button className="h-10 w-64 hover:rounded-lg hover:border-2 lg:w-80">
+                <button className="h-10 w-64 hover:rounded-lg hover:border-2 lg:w-80">
                   <p className="">Learn More</p>
-                </Button>
+                </button>
               </div>
             </div>
             <div className="mx-3  hidden rounded-lg border-2 py-3 md:inline">
@@ -109,14 +108,14 @@ export const Pricing2 = () => {
                 </div>
               </div>
               <div className="flex justify-center px-3 py-3">
-                <Button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
+                <button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
                   <p className="text-primary">Select Plan</p>
-                </Button>
+                </button>
               </div>
               <div className="flex justify-center px-3 py-3">
-                <Button className="h-10 w-64 hover:rounded-lg hover:border-2 lg:w-80">
+                <button className="h-10 w-64 hover:rounded-lg hover:border-2 lg:w-80">
                   <p className="">Learn More</p>
-                </Button>
+                </button>
               </div>
             </div>
           </div>

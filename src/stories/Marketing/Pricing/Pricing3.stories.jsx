@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 import { FaCheck } from "react-icons/fa";
 import { SectionWrapper } from "../../components/SectionWrapper";
 export const Pricing3 = () => {
@@ -80,14 +79,14 @@ export const Pricing3 = () => {
                 </div>
               </div>
               <div className=" px-5 py-3">
-                <Button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
+                <button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
                   <p className="text-primary">Select Plan</p>
-                </Button>
+                </button>
               </div>
               <div className=" px-5 py-2">
-                <Button className="h-10 w-64 lg:w-80">
+                <button className="h-10 w-64 lg:w-80">
                   <p className="">Learn More</p>
-                </Button>
+                </button>
               </div>
             </div>
 
@@ -149,14 +148,14 @@ export const Pricing3 = () => {
                   </div>
                 </div>
                 <div className=" px-5 py-3">
-                  <Button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
+                  <button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
                     <p className="text-primary">Select Plan</p>
-                  </Button>
+                  </button>
                 </div>
                 <div className=" px-5 py-2">
-                  <Button className="h-10 w-64 lg:w-80">
+                  <button className="h-10 w-64 lg:w-80">
                     <p className="">Learn More</p>
-                  </Button>
+                  </button>
                 </div>
               </div>
               <div className="mx-3 my-2 rounded-lg border-2 py-3 lg:border-0">
@@ -216,14 +215,14 @@ export const Pricing3 = () => {
                   </div>
                 </div>
                 <div className=" px-5 py-3">
-                  <Button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
+                  <button className="border-primary h-10 w-64 rounded-lg border-2 lg:w-80">
                     <p className="text-primary">Select Plan</p>
-                  </Button>
+                  </button>
                 </div>
                 <div className=" px-5 py-2">
-                  <Button className="h-10 w-64 lg:w-80">
+                  <button className="h-10 w-64 lg:w-80">
                     <p className="">Learn More</p>
-                  </Button>
+                  </button>
                 </div>
               </div>
             </div>

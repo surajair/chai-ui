@@ -11,7 +11,6 @@ import { AiFillCamera } from "react-icons/ai";
 import { IoMdBasket } from "react-icons/io";
 import { HiPuzzle } from "react-icons/hi";
 import { MdPermContactCalendar } from "react-icons/md";
-import { Button } from "react-bootstrap";
 export const Calltoaction10 = () => {
   return (
     <>
@@ -51,7 +50,7 @@ export const Calltoaction10 = () => {
               </div>
               <div className="-mx-10 flex justify-center py-3 md:mx-0">
                 <div>
-                  <Button className="bg-primary rounded-lg py-1 lg:px-3">
+                  <button className="bg-primary rounded-lg py-1 lg:px-3">
                     <div className="flex">
                       <div className="my-auto px-1">
                         <BsApple className="h-6 w-6 text-white" />
@@ -67,10 +66,10 @@ export const Calltoaction10 = () => {
                         </div>
                       </div>
                     </div>
-                  </Button>
+                  </button>
                 </div>
                 <div className="px-3">
-                  <Button className="bg-primary rounded-lg py-1 lg:px-3">
+                  <button className="bg-primary rounded-lg py-1 lg:px-3">
                     <div className="flex">
                       <div className="my-auto px-1">
                         <FaGooglePlay className="h-6 w-6 text-white" />
@@ -84,7 +83,7 @@ export const Calltoaction10 = () => {
                         </div>
                       </div>
                     </div>
-                  </Button>
+                  </button>
                 </div>
               </div>
             </div>

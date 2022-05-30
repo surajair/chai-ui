@@ -1,7 +1,5 @@
 import { SectionWrapper } from "../../components/SectionWrapper";
-import { GoPrimitiveDot } from "react-icons/go";
-
-export const Pricing5 = () => {
+export const Pricing6 = () => {
   return (
     <>
       <SectionWrapper>
@@ -19,8 +17,8 @@ export const Pricing5 = () => {
               designs from your cloud storage!
             </h3>
           </div>
-          <div className="flex justify-center py-3">
-            <div className="mx-3  hidden rounded-lg border-2 py-3 text-center md:inline">
+          <div className="justify-center py-3 lg:flex">
+            <div className="mx-3  py-3 text-center">
               <div className="py-1  px-7">
                 <h1 className="text-lg  font-bold">Starter</h1>
               </div>
@@ -54,7 +52,8 @@ export const Pricing5 = () => {
                 </button>
               </div>
             </div>
-            <div className="mx-3  rounded-lg border-2 py-3 text-center">
+            <hr />
+            <div className="mx-3  py-3 text-center">
               <div className="py-1  px-7">
                 <h1 className="text-lg  font-bold">Method Plus</h1>
               </div>
@@ -88,7 +87,8 @@ export const Pricing5 = () => {
                 </button>
               </div>
             </div>
-            <div className="mx-3  hidden rounded-lg border-2 py-3 text-center lg:inline">
+            <hr />
+            <div className="mx-3  py-3 text-center">
               <div className="py-1  px-7">
                 <h1 className="text-lg  font-bold">Method Pro</h1>
               </div>
@@ -122,46 +122,6 @@ export const Pricing5 = () => {
                 </button>
               </div>
             </div>
-            <div className="mx-3  hidden rounded-lg border-2 py-3 text-center lg:inline">
-              <div className="py-1  px-7">
-                <h1 className="text-lg  font-bold">Method Business</h1>
-              </div>
-              <div className=" py-3">
-                <div className="px-7">
-                  <h1 className="text-5xl font-bold">$49</h1>
-                </div>
-                <div className="py-3">
-                  <div>
-                    <p>20 Emails</p>
-                  </div>
-                  <div>
-                    <p>20 Databases</p>
-                  </div>
-                  <div>
-                    <p>200Gb Bandwidtch</p>
-                  </div>
-                  <div>
-                    <p>50Gb Storage</p>
-                  </div>
-                </div>
-              </div>
-              <div className="flex justify-center px-3 py-3">
-                <button className="border-primary h-10 w-64 rounded-lg border-2">
-                  <p className="text-primary">Select Plan</p>
-                </button>
-              </div>
-              <div className="flex justify-center px-3 py-3 ">
-                <button className="h-10 w-64">
-                  <p className="">Learn More</p>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="flex justify-center text-gray-700 lg:hidden">
-            <GoPrimitiveDot className="opacity-30 md:hidden" />
-            <GoPrimitiveDot />
-            <GoPrimitiveDot className="opacity-30" />
-            <GoPrimitiveDot className="opacity-30 md:hidden" />
           </div>
         </div>
       </SectionWrapper>
@@ -170,6 +130,6 @@ export const Pricing5 = () => {
 };
 
 export default {
-  title: "Marketing/Pricing/Pricing 5",
-  component: Pricing5,
+  title: "Marketing/Pricing/Pricing 6",
+  component: Pricing6,
 };
